@@ -1,0 +1,32 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="email"]{
+  display: block;
+  width: 100%;
+  padding: 0.5rem;
+  margin: 1rem 0;
+  font-size: 1rem;
+  color: #fff;
+}
+
+button[type="submit"]{
+  background-color: cadetblue;
+  color: black;
+}
+
+.error{
+  color: red;
+  font-size: 15px;
+  text-align: left;
+}
+
+.form-control{
+  margin-bottom: 20px;
+}
